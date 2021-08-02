@@ -18,3 +18,7 @@ if __name__ == "__main__":
 else :
     print ("greeting.py is being imported")
 
+message_list = ["Good morning", "Good afternoon", "Good night"]
+
+
+
