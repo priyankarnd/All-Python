@@ -1,5 +1,21 @@
 #File handling in Python
 
+'''
+Modes:
+
+Opening a file using open() function
+
+There are four different methods (Modes) for opening a file:
+
+"r": Read   - Default value. Opens a file for reading, error if the file does not exist
+"a": Append - Opens a file for appending, creates the file if it does not exist
+"w": Write  - Opens a file for writing, creates the file it does not exist 
+"x": Create - Creates the spcific file , returns an error if the file exists
+
+"t" : Text - Default value. Text mode.
+"b" : Binary - Binary mode (e.g. images)
+'''
+
 #Best way to open a file
 #File will automatically be closed when the nest code block completes
 
