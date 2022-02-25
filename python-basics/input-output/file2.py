@@ -47,6 +47,7 @@ for x in f:
     print(x)
 f.close()
 
+
 # Writing a file
 f = open("data2.txt", "a")
 f.write("hello, this is the id")
@@ -62,9 +63,9 @@ f = open("data3.txt", "w")
 f.write("This is Chicago")
 f.close()
 
-# f = open("data5.txt", "x")
-# f.write("This is LA")
-# f.close()
+f = open("data5.txt", "x")
+f.write("This is LA")
+f.close()
 
 
 # f = open("data6.txt", "r")
@@ -79,7 +80,6 @@ if os.path.exists("data4.txt"):
     os.remove("data4.txt")
 else:
     print("The file does not exist")
-
 
 
 

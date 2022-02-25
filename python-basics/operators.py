@@ -20,8 +20,16 @@ print(x*y)
 #Division
 print(x/y)
 
+# Division without reminder
+print(x//y)
+
 #Modulus
 print(x%y)
+
+#Exponential
+a = 60
+b = 2
+print(a**b)
 
 #Assignment operators
 

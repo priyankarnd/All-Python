@@ -111,7 +111,7 @@ x = [item for item in fruits]
 print(x)
 
 # copy the list
-combo = fruits.copy(fruits)
+combo = fruits.copy()
 print(combo)
 
 # clear elements of list

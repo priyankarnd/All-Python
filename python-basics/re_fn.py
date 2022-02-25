@@ -26,6 +26,9 @@ print(x)
 x = re.split("\s", txt, 2)
 print(x)
 
+x = re.split("\s", txt, 3)
+print(x)
+
 x = re.sub("\s","-", txt)
 print(x)
 
