@@ -1,8 +1,8 @@
 # super class
 class Student:
 
-    #Protected data members
-    # _name, _id, _division
+    #Private data members
+    # __name, __id, __division
 
     # Constructor
     def __init__(self, name, id, branch):
@@ -10,7 +10,7 @@ class Student:
         self.__id = id
         self.__branch = branch
 
-    # Protected member function
+    # Private member function
     def __displayinfo(self):
         print("Name: ", self.__name)
         print("id: ", self.__id)
