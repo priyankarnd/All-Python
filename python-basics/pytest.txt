@@ -5,7 +5,7 @@ Identifying test files and test functions.
 Executing all test files using pytest –v.
 Executing specific file usimng pytest <filename> -v.
 Execute tests by substring matching pytest -k <substring> -v.
-Execute tests based on markers pytest -m <marker_name> -v.
+Execute tests in groups based on markers pytest -m <marker_name> -v. Bfore test fn, @pytest.mark.name.
 Creating fixtures using @pytest.fixture.
 conftest.py allows accessing fixtures from multiple files.
 Parametrizing tests using @pytest.mark.parametrize.
