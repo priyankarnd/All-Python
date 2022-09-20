@@ -57,6 +57,7 @@ def addition(num1, num2) :
 print(addition(10,20))
 
 #Unknown number of parameters
+# Args: Positional arguments
 def sum(*numbers) :
     result = 0
     for x in numbers:
@@ -66,6 +67,15 @@ def sum(*numbers) :
 print(sum(10,25,35,67,100))
 
 print(sum(30,20,25))
+
+# Kwargs: Keyword arguments
+def mult(**numbers):
+    result = 1
+    for n in numbers.values():
+        result *= n
+    return result
+    
+print(mult(a=1,b=2,c=3))
 
 #Pass statement
 def func():
@@ -127,6 +137,3 @@ def recur_factorial(n):
         return n * recur_factorial(n-1)
 
 print(recur_factorial(5))
-
-
-

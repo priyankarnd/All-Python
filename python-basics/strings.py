@@ -38,7 +38,7 @@ print(len(b))
 
 #string methods
 
-#strip() - remove whitespaces
+#strip() - remove whitespaces beginning and end
 a = " Hello, World! "
 print(a.strip())
 

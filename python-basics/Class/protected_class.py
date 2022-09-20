@@ -35,4 +35,28 @@ n = Nerd("John", 25, "Science")
 
 n.displayDetails()
 
+class usa:
+    def __init__(self, continent,capital):
+        self._continent = continent
+        self._capital = capital
+        
+    def _print_capital(self):
+        print("Capital is: ", self._capital)
+
+class state(usa):
+    def __init__(self, continent, capital,region,timezone):
+        usa.__init__(self, continent, capital)
+        self.region = region
+        self.timezone = timezone
+
+    def print_continent(self):
+        print(self._continent)
+    
+    def print_capital(self):
+        self._print_capital()
+
+s = state("North America", "Washington D.C","Rockies","MST")
+s.print_continent()
+print(s.region)
+s.print_capital()
 
