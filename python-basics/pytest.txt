@@ -8,7 +8,7 @@ Execute tests by substring matching pytest -k <substring> -v.
 Execute tests in groups based on markers pytest -m <marker_name> -v. Bfore test fn, @pytest.mark.name.
 Creating fixtures using @pytest.fixture.
 conftest.py allows accessing fixtures from multiple files.
-Parametrizing tests using @pytest.mark.parametrize.
+Parametrizing tests using @pytest.mark.parametrize. @pytest.mark.parametrize("num, output",[(1,11),(2,22),(3,35),(4,44)])
 Xfailing tests using @pytest.mark.xfail.
 Skipping tests using @pytest.mark.skip.
 Stop test execution on n failures using pytest --maxfail = <num>.
