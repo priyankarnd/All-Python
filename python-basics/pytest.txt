@@ -1,0 +1,15 @@
+In this pytest tutorial, we covered the following areas −
+
+Installing pytest..
+Identifying test files and test functions.
+Executing all test files using pytest –v.
+Executing specific file usimng pytest <filename> -v.
+Execute tests by substring matching pytest -k <substring> -v.
+Execute tests based on markers pytest -m <marker_name> -v.
+Creating fixtures using @pytest.fixture.
+conftest.py allows accessing fixtures from multiple files.
+Parametrizing tests using @pytest.mark.parametrize.
+Xfailing tests using @pytest.mark.xfail.
+Skipping tests using @pytest.mark.skip.
+Stop test execution on n failures using pytest --maxfail = <num>.
+Running tests in parallel using pytest -n <num>.
