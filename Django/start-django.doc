@@ -1,4 +1,4 @@
-1. Environment creation
+﻿1. Environment creation
 virtualenv .
 source bin/activate
 pip install django
@@ -10,6 +10,7 @@ django-admin startproject trydjango .
 python manage.py runserver
 
 3. Sync all the settings
+python manage.py makemigrations
 python manage.py migrate
 
 4. Create superuser
@@ -41,6 +42,14 @@ python manage.py startapp appname
 <Product: Product object (5)>
 >>> Product.objects.all()
 <QuerySet [<Product: Product object (1)>, <Product: Product object (2)>, <Product: Product object (3)>, <Product: Product object (4)>, <Product: Product object (5)>]>
+
+11. Creating custom homepage
+In trydjango → urls.py, import views from appname. Add path in url patterns.
+
+12. Using Django templates
+Add templates folder and add .html pages
+Add templates path in TEMPLATES → DIRS in settings.py 
+Use render in views.py
 
 
 Exit from virtual environment: deactivate
