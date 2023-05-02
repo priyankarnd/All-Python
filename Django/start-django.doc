@@ -51,5 +51,7 @@ Add templates folder and add .html pages
 Add templates path in TEMPLATES → DIRS in settings.py 
 Use render in views.py
 
+13. For more templates features, see the templates documentation
+
 
 Exit from virtual environment: deactivate
