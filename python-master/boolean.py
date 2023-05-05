@@ -9,3 +9,5 @@ print(bool(""))
 print(bool(()))
 print(bool([]))
 print(bool({}))
+
+print(30 == 10)

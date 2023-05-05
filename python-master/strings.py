@@ -17,6 +17,10 @@ Python. You can use this method
 if there is a lot of information you want to
 assign to a string'''
 
+'''
+This is comment
+'''
+
 print(a)
 
 #Strings are arrays
@@ -30,6 +34,7 @@ print(b[2:5])
 
 #Negative Indexing
 b = "Hello, World!"
+print(b[-1])
 print(b[-5:-2])
 
 #String length

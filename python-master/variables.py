@@ -2,11 +2,23 @@
 
 x = 10
 
+y = 5.5
+
 name = "Bappa"
 
 print(x)
 
+print(y)
+
 print(name)
+
+x = 6.5
+
+name = "Sonia"
+
+print(x)
+print(name)
+
 
 #Assigning a value to multiple variables
 
@@ -16,11 +28,13 @@ print(fruit1)
 print(fruit2)
 print(fruit3)
 
+
 #Output variables
 
 name = "PR"
 
 print("Hello " + name)
+
 
 #Global variables
 

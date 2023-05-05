@@ -31,6 +31,8 @@ a = 60
 b = 2
 print(a**b)
 
+
+
 #Assignment operators
 
 print("Assignment")
@@ -59,6 +61,7 @@ print (x != y)
 print (x <= y)
 
 print (x > y)
+
 
 #Logical operators
 
@@ -92,8 +95,6 @@ y = 1
 
 print(x & y)
 print(x | y)
-
-
 
 
 

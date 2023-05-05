@@ -7,6 +7,7 @@ fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
 # length
 print(len(fruits))
 
+
 #access element from the list
 print(fruits[1])
 
@@ -65,6 +66,7 @@ for x in fruits:
 if "apple" in fruits:
     print("Yes, apple is in fruit list")
 
+
 #slicing a list
 print(fruits)
 
@@ -121,7 +123,6 @@ print(fruits)
 # delete list
 del(fruits)
 print(fruits)
-
 
 
 

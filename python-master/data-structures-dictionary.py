@@ -9,7 +9,11 @@ movie = {
 
 #Extracting key values
 
+print(movie.values())
+print(movie.keys())
+
 print(movie["title"])
+
 print(movie["stars"][1]) #Second star in list
 
 print(movie.get("title"))
@@ -71,7 +75,6 @@ del movie
 movie2 = dict(title="Matrix", rating = "PG-13", year = 1999)
 
 print(movie2)
-
 
 
 

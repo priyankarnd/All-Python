@@ -30,7 +30,7 @@ print(fruits)
 fruits.discard("guava")
 
 #empty the set
-#fruits.clear()
+# fruits.clear()
 
 print(fruits)
 
@@ -40,6 +40,7 @@ vegetables = {"carrots", "squash"}
 produce = fruits.union(vegetables)
 
 print(produce)
+
 
 #produce2 = fruits.intersection(vegetables)
 
@@ -71,7 +72,7 @@ print(names)
 
 #names.remove("Jim") #remove will throw error
 
-#names.update({"Mary", "jane"}) #Cannot be updated
+names.update({"Mary", "jane"}) #Cannot be updated
 
 
 
