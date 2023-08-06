@@ -1,0 +1,25 @@
+HTTP defines a set of request methods to indicate the desired action to be performed for a given resource. These request methods are sometimes referred to as HTTP verbs. Here is a brief overview of the HTTP operations you mentioned:
+
+POST: The POST method is used to submit data to be processed to the specified resource. It is often used to create new resources or submit web forms1.
+
+GET: The GET method is used to retrieve data from the specified resource. Requests using GET should only retrieve data and should not have any other effect1.
+
+PUT: The PUT method is used to update a current resource with new data. It replaces all current representations of the target resource with the request payload1.
+
+DELETE: The DELETE method is used to delete the specified resource1.
+
+OPTIONS: The OPTIONS method is used to describe the communication options for the target resource. It allows the client to determine the options and/or requirements associated with a resource, or the capabilities of a server, without implying a resource action or initiating a resource retrieval1.
+
+HEAD: The HEAD method is used to retrieve the headers of a resource, without returning the actual data. It is identical to a GET request, but without the response body1.
+
+PATCH: The PATCH method is used to apply partial modifications to a resource1.
+
+TRACE: The TRACE method performs a message loop-back test along the path to the target resource. It provides a way to see what is being received at the other end of the request chain and use that data for testing or diagnostic information.
+
+@app.post()
+@app.put()
+@app.delete()
+@app.options()
+@app.head()
+@app.patch()
+@app.trace()
