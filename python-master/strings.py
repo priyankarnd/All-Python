@@ -83,15 +83,21 @@ print(txt.format(age))
 quantity = 3
 itemno = 567
 price = 49.95
-myorder = "I want {} pieces of item {} for {} dollars"
-print(myorder.format(quantity,itemno,price))
+# myorder = "I want {} pieces of item {} for {} dollars"
+print("I want {} pieces of item {} for {} dollars".format(quantity,itemno,price))
 
 
 quantity = 3
 itemno = 567
 price = 49.95
-myorder = "I want to pay {2} dollars for {0} pieces of item {1}"
-print(myorder.format(quantity,itemno,price))
+# myorder = "I want to pay {2} dollars for {0} pieces of item {1}"
+print("I want {2} pieces of item {0} for {1} dollars".format(itemno,price,quantity))
+
+name = "Mike"
+occupation = "Programmer"
+age = 34
+#f string -New in Python3
+print(f'{name} is a {occupation} and he is {age} years old')
 
 
 #formatting operator
