@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Users List</title>
+    <link rel="stylesheet" href="{% static "css/mystyle.css" %}"/>
+  </head>
+  <body>
+    <!-- The body contains the actual content -->
+     <h1> Here is the list of users </h1>
+     
+     <div class="userlist">
+        {% if users %}
+
+          {% for u in users %}
+
+            <ul>
+              <li> First name: {{u.first_name}} </li>
+              <li> Last name: {{u.last_name}} </li>
+              <li> Email: {{u.emailid}} </li>
+            </ul>
+
+          {% endfor %}
+            
+        {% else %}
+            <p>NO RECORD FOUND</p>
+        {% endif %}
+     </div>
+
+  </body>
+</html>
